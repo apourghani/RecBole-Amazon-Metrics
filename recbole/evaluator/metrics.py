@@ -227,6 +227,36 @@ class Precision(TopkMetric):
         return pos_index.cumsum(axis=1) / np.arange(1, pos_index.shape[1] + 1)
 
 
+
+
+
+
+
+
+
+
+
+
+
+class Precision_amazon(Precision):
+    """ 
+	    Same as the Precision class, with a minor edit to calculate Precision metric like
+	    Amazon.
+    """
+    pass
+
+
+
+
+
+
+
+
+
+
+
+
+
 # CTR Metrics
 
 
